@@ -3,6 +3,9 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <UserSecretsId>aspnet-DevSlop-31004BF6-638B-406F-9DB1-BEA67AFC905A</UserSecretsId>
+ 	<!-- SonarQube needs this -->
+  	<ProjectGuid>{3fa2ba6a-751c-4d33-8378-252e9e13a3d9}</ProjectGuid> 
+	<!-- SonarQube needs this -->
   </PropertyGroup>
 
   <ItemGroup>
