@@ -4,21 +4,19 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <UserSecretsId>aspnet-DevSlop-31004BF6-638B-406F-9DB1-BEA67AFC905A</UserSecretsId>
  	<!-- SonarQube needs this -->
-  	<ProjectGuid>{3fa2ba6a-751c-4d33-8378-252e9e13a3d9}</ProjectGuid> 
-	<!-- SonarQube needs this -->
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.5.1" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.7.0" />
     <PackageReference Include="Microsoft.AspNetCore.App" Version="2.2.0" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.4" />
     <PackageReference Include="Microsoft.Extensions.Configuration.AzureKeyVault" Version="2.2.0" />
-    <PackageReference Include="Microsoft.IdentityModel.Clients.ActiveDirectory" Version="4.4.2" />
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.IdentityModel.Clients.ActiveDirectory" Version="5.1.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" PrivateAssets="All" />
     <PackageReference Include="NWebsec.AspNetCore.Middleware" Version="2.0.0" />
-    <PackageReference Include="SecurityCodeScan" Version="3.0.0" />
-    <PackageReference Include="bootstrap" Version="4.2.1" />
-    <PackageReference Include="jQuery" Version="3.3.1" />
+    <PackageReference Include="SecurityCodeScan" Version="3.2.0" />
+    <PackageReference Include="bootstrap" Version="4.3.1" />
+    <PackageReference Include="jQuery" Version="3.4.1" />
     <PackageReference Include="Microsoft.jQuery.Unobtrusive.Validation" Version="3.2.11" />
     <PackageReference Include="jQuery.Validation" Version="1.17.0" />
   </ItemGroup>

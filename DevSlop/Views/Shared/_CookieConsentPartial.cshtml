@@ -6,6 +6,7 @@
     var cookieString = consentFeature?.CreateConsentCookie();
 }
 
+
 @if (showBanner)
 {
     <nav id="cookieConsent" class="navbar navbar-default navbar-fixed-top" role="alert">
@@ -30,7 +31,7 @@
             </div>
         </div>
     </nav>
-    <script>
+    <script >
         (function () {
             document.querySelector("#cookieConsent button[data-cookie-string]").addEventListener("click", function (el) {
                 document.cookie = el.target.dataset.cookieString;
